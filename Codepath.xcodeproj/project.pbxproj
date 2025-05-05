@@ -10,10 +10,23 @@
 		1A9CD72F2DC858350091438A /* Codepath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codepath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1A9CD7882DC867360091438A /* Exceptions for "Codepath" folder in "Codepath" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1A9CD72E2DC858350091438A /* Codepath */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1A9CD7312DC858350091438A /* prework */ = {
+		1A9CD7312DC858350091438A /* Codepath */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = prework;
+			exceptions = (
+				1A9CD7882DC867360091438A /* Exceptions for "Codepath" folder in "Codepath" target */,
+			);
+			path = Codepath;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +45,7 @@
 		1A9CD7262DC858350091438A = {
 			isa = PBXGroup;
 			children = (
-				1A9CD7312DC858350091438A /* prework */,
+				1A9CD7312DC858350091438A /* Codepath */,
 				1A9CD7302DC858350091438A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1A9CD7312DC858350091438A /* prework */,
+				1A9CD7312DC858350091438A /* Codepath */,
 			);
 			name = Codepath;
 			packageProductDependencies = (
@@ -85,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1A9CD72A2DC858350091438A /* Build configuration list for PBXProject "prework" */;
+			buildConfigurationList = 1A9CD72A2DC858350091438A /* Build configuration list for PBXProject "Codepath" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -301,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A9CD72A2DC858350091438A /* Build configuration list for PBXProject "prework" */ = {
+		1A9CD72A2DC858350091438A /* Build configuration list for PBXProject "Codepath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A9CD7452DC858370091438A /* Debug */,
